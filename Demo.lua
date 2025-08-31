@@ -12,7 +12,7 @@ AVAILABLE FUNCTIONALITIES IN GAME:
 3. Wall running (approach wall and jump + W + space)
 4. Sword skill
 
-Assets and anims are pretty unrefined
+Assets and anims are pretty unrefined - They also are not preloaded so first attempt might be strange
 --]]
 
 local ServerManager = {}
