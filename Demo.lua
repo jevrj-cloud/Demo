@@ -6,6 +6,13 @@ NOTE TO REVIEWER:
 This is part of a larger combat framework meant to modularize combat tasks and handle those interactions for a multiplayer combat
 This specific file is the crux for server-side routing in this system
 
+AVAILABLE FUNCTIONALITIES IN GAME:
+1. Double jumping
+2. Skillset1 which just wires to a double jump
+3. Wall running (approach wall and jump + W + space)
+4. Sword skill
+
+Assets and anims are pretty unrefined
 --]]
 
 local ServerManager = {}
