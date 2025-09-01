@@ -36,7 +36,7 @@ local Players = game:GetService("Players")
 local Signal = require(ReplicatedStorage.CombatReplicatedStorage.SharedModules.GoodSignal) 
 -- Central config file for all parameter adjustments
 local Config = require(ServerStorage.CombatServerStorage.Config) 
--- My custom player stats module for managing player state - tied with PlayerStore 
+-- My custom player stats module for managing player state - tied with ProfileStore 
 local PlayerStats = require(ServerStorage.CombatServerStorage.SharedModules.PlayerStats)
 -- This is a generic server-side skill template to handle typical operations like cooldown checking, permissions checking, etc. It acts as a wrapper
 local SkillTemplate = require(ServerStorage.CombatServerStorage.SkillModules.Skills.ServerSkillTemplate)
