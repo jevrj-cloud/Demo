@@ -90,7 +90,7 @@ end
 local function onDeath(self, character: Model, player: Player)
 	local humanoid = character:WaitForChild("Humanoid", 3) :: Humanoid
 	if(humanoid) then
-		-- Not concerned about maintaining death connection - will clean on humanoid instance destruction
+		-- Not concerned about maintaining death connection - will clean on humanoid instance destruction, no persistent references to humanoid
 		humanoid.Died:Connect(function()
 			-- If skillset is a tool then disable it on death in case player has it equipped
 			-- The way I handle skillsets is a variable TOOL_MODE = boolean either turns a skillset into a tool or not. This tool can be cloned into player backpack / starterplayer
