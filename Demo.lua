@@ -238,6 +238,7 @@ end
 -- Main Functions
 ---------------------------------------------------------------------
 
+-- The generic type <T> is left in for future extensibility. 
 function ServerManager.Init<T>(ps: T): ServerManager<T>
 	-- Create instanced server manager
 	local self: ServerManager<T> = setmetatable({}, ServerManager) :: any
